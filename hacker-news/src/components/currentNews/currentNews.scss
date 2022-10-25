@@ -1,0 +1,32 @@
+.current-news {
+	text-align: center;
+	max-width: 80%;
+}
+
+.comment {
+	left: 100px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	margin-top: 200px;
+}
+
+.count {
+	margin-right: auto;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.no-com {
+	color: var(--second-color);
+	font-size: 50px;
+}
+
+.com-loader {
+	position: relative;
+	top: 100px;
+}
+
+.error-com {
+	color: var(--error-color);
+}

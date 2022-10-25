@@ -1,0 +1,57 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "GT Eesti Pro Display";
+  src: url("./fonts/GTEestiProDisplay-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GT Eesti Pro Display";
+  src: url("./fonts/GTEestiProDisplay-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+body {
+  font-family: "GT Eesti Pro Display", sans-serif;
+  text-decoration: none;
+  color: var(--font-color);
+  width: 100%;
+  max-width: 100%;
+  background: var(--back-color);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--mix-color);
+}
+
+#root {
+  position: relative;
+  width: 100%;
+  background: var(--back-color);
+  height: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #191919;
+  border-radius: 20px;
+}
+
+

@@ -1,0 +1,196 @@
+.title {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.url {
+	margin-top: 20px;
+	font-size: 26px;
+	color: var(--second-color);
+
+	&__href {
+		background-color: var(--second-grad);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: rgba(0,0,0,0);
+		background-image: var(--welcome-color);
+		text-decoration: none;
+	}
+}
+
+.svg-news {
+	width: 80px;
+	height: 80px;
+	fill: var(--font-color);
+}
+
+.svg-data {
+	width: 80px;
+	height: 80px;
+
+}
+
+.svg-items {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+
+	&__name {
+		margin-right: 40px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__time {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.by {
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+.time {
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+// МЕДИЯ ЗАПРОСЫ ДЛЯ ЗАГОЛОВКА НОВОСТИ
+@media (min-width: 2800px) {
+	.news-page {
+		margin-top: 170px;
+	}
+
+	.title {
+		font-size: 90px;
+	}
+
+	.url {
+		font-size: 43px;
+	}
+
+	.by {
+		font-size: 45px;
+	}
+
+	.time {
+		font-size: 45px;
+	}
+
+	.svg-news {
+		width: 120px;
+		height: 120px;
+	}
+
+	.count {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.news-page {
+		margin-top: 100px;
+	}
+
+	.title {
+		font-size: 60px;
+	}
+
+	.url {
+		font-size: 22px;
+	}
+
+	.by {
+		font-size: 25px;
+	}
+
+	.time {
+		font-size: 25px;
+	}
+
+	.svg-news {
+		width: 60px;
+		height: 60px;
+	}
+
+	.comment {
+		margin-top: 150px;
+	}
+
+	.count {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.news-page {
+		margin-top: 80px;
+	}
+
+	.title {
+		font-size: 50px;
+	}
+
+	.url {
+		font-size: 20px;
+	}
+
+	.by {
+		font-size: 22px;
+	}
+
+	.time {
+		font-size: 22px;
+	}
+
+	.svg-news {
+		width: 50px;
+		height: 50px;
+	}
+
+	.comment {
+		left: 70px;
+		margin-top: 120px;
+	}
+
+	.count {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 600px) {
+	.news-page {
+		margin-top: 70px;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.url {
+		font-size: 18px;
+	}
+
+	.by {
+		font-size: 18px;
+	}
+
+	.time {
+		font-size: 18px;
+	}
+
+	.svg-news {
+		width: 40px;
+		height: 40px;
+	}
+
+	.comment {
+		left: 30px;
+		margin-top: 80px;
+	}
+
+	.count {
+		font-size: 18px;
+	}
+}

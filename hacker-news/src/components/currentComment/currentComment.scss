@@ -1,0 +1,194 @@
+.current-com {
+	width: 80%;
+	min-height: 200px;
+	border: 2px solid var(--active-color);
+	border-radius: 20px;
+	margin-bottom: 20px;
+	display: grid;
+	padding: 20px;
+	grid-template-columns: 200px auto;
+}
+
+.com-profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.svg-com {
+	fill: var(--font-color);
+	width: 80px;
+	height: 80px;
+}
+
+.com-by {
+	overflow-wrap: anywhere;
+	font-size: 26px;
+}
+
+.com-text {
+	overflow-wrap: anywhere;
+	text-align: start;
+}
+
+.text-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between
+}
+
+.btn-open {
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: auto;
+}
+
+.answer {
+	margin-left: 5%;
+	width: 94%;
+}
+
+.ans-loader {
+	position: relative;
+	margin: 100px 0 100px auto;
+}
+
+.error-ans {
+	color: var(--error-color);
+	margin: 20px;
+	text-align: start;
+}
+
+//МЕДИЯ ЗАПРОСЫ ДЛЯ ОТДЕЛЬНОГО КОММЕНТАРИЯ
+@media (min-width: 2800px) {
+	.svg-com {
+		width: 120px;
+		height: 120px;
+	}
+
+	.com-text {
+		font-size: 24px;
+	}
+
+	.com-by {
+		font-size: 36px;
+	}
+
+	.btn-open {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.no-com {
+		font-size: 40px;
+	}
+
+	.current-com {
+		grid-template-columns: 150px auto;
+	}
+
+	.svg-com {
+		width: 60px;
+		height: 60px;
+	}
+
+	.com-text {
+		font-size: 14px;
+	}
+
+	.com-by {
+		font-size: 22px;
+	}
+
+	.btn-open {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.no-com {
+		font-size: 35px;
+	}
+
+	.current-com {
+		grid-template-columns: 125px auto;
+	}
+
+	.svg-com {
+		width: 50px;
+		height: 50px;
+	}
+
+	.com-text {
+		font-size: 12px;
+	}
+
+	.com-by {
+		font-size: 18px;
+	}
+
+	.btn-open {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 800px) {
+	.no-com {
+		font-size: 25px;
+	}
+
+	.current-com {
+		padding: 15px;
+		grid-template-columns: 100px auto;
+	}
+
+	.svg-com {
+		width: 50px;
+		height: 50px;
+	}
+
+	.com-text {
+		font-size: 11px;
+	}
+
+	.com-by {
+		font-size: 14px;
+	}
+
+	.btn-open {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 600px) {
+	.no-com {
+		font-size: 18px;
+	}
+
+	.current-com {
+		width: 90%;
+		padding: 10px;
+		grid-template-columns: 80px auto;
+	}
+
+	.svg-com {
+		width: 40px;
+		height: 40px;
+	}
+
+	.com-text {
+		font-size: 10px;
+	}
+
+	.com-by {
+		font-size: 12px;
+	}
+
+	.btn-open {
+		font-size: 11px;
+	}
+}

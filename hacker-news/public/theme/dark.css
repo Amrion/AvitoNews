@@ -1,0 +1,13 @@
+:root {
+	--error-color: red;
+	--nav-color: #031014;
+	--second-color: #9b9b9b;
+	--font-color: white;
+	--back-color: #01090b;
+	--mix-color: #744fa9;
+	--active-color: #c951ab;
+	--second-grad: #2c51b1;
+	--btn-color: linear-gradient(90deg, #c951ab -12.3%, #2b54bc 93.57%);
+	--btn-hover-color: linear-gradient(90deg, #a6418d -12.3%, #24469d 93.57%);
+	--welcome-color: linear-gradient(180deg, #bd4ca1 20%, #2c51b1 100%);
+}

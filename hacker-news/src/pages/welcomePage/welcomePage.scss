@@ -1,0 +1,185 @@
+.welcome-page {
+	height: 100vh;
+	margin-top: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center
+}
+
+.welcome-h1 {
+	font-size: 90px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.welcome-span {
+	background-color: var(--second-grad);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(0,0,0,0);
+	background-image: var(--welcome-color);
+}
+
+.welcome-tutor {
+	text-align: center;
+	font-size: 36px;
+	color: var(--second-color);
+}
+
+.go-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin-left: 0;
+	margin-top: 50px;
+}
+
+// МЕДИЯ ЗАПРОСЫ ДЛЯ СТРАНИЦЫ ПРИВЕТСТВИЯ
+@media (min-width: 2800px) {
+	.navbar {
+		height: 110px;
+
+		&__name {
+			font-size: 52px;
+		}
+
+		&__atr {
+			font-size: 36px;
+		}
+
+		&__btn {
+			font-size: 36px;
+			height: 66px;
+			max-width: 800px;
+		}
+	}
+
+	.welcome-h1 {
+		font-size: 120px;
+	}
+
+	.welcome-tutor {
+		font-size: 54px;
+	}
+}
+
+@media (max-width: 1450px) and (min-width: 1050px){
+	.navbar {
+		height: 65px;
+
+		&__atr {
+			font-size: 20px;
+		}
+
+		&__name {
+			margin-right: 65px;
+			font-size: 32px;
+		}
+
+		&__btn {
+			font-size: 20px;
+			height: 40px;
+			width: 25%;
+		}
+	}
+
+	.welcome-h1 {
+		font-size: 70px;
+	}
+
+	.welcome-tutor {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 1050px) and (min-width: 830px) {
+	.navbar {
+		height: 55px;
+
+		&__atr {
+			font-size: 16px;
+		}
+
+		&__name {
+			margin-right: 50px;
+			font-size: 26px;
+		}
+
+		&__btn {
+			font-size: 16px;
+			height: 34px;
+			width: 25%;
+		}
+	}
+
+	.welcome-h1 {
+		font-size: 55px;
+	}
+
+	.welcome-tutor {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 830px) {
+	.navbar {
+		height: 50px;
+
+		&__atr {
+			margin-right: 14px;
+			font-size: 14px;
+		}
+
+		&__name {
+			margin-right: 35px;
+			font-size: 22px;
+		}
+
+		&__btn {
+			font-size: 14px;
+			height: 29px;
+			width: 25%;
+		}
+	}
+
+	.welcome-h1 {
+		font-size: 40px;
+	}
+
+	.welcome-tutor {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 600px) {
+	.navbar {
+		padding: 5px 15px;
+		height: 45px;
+
+		&__atr {
+			margin-right: 8px;
+			font-size: 8px;
+		}
+
+		&__name {
+			margin-right: 15px;
+			font-size: 16px;
+		}
+
+		&__btn {
+			font-size: 10px;
+			height: 23px;
+			width: 30%;
+		}
+	}
+
+	.welcome-h1 {
+		font-size: 24px;
+	}
+
+	.welcome-tutor {
+		font-size: 14px;
+	}
+}
+

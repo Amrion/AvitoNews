@@ -1,0 +1,89 @@
+.error-img {
+	width: 600px;
+	height: 414px;
+}
+
+.error-page {
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.error-main-text {
+	margin-bottom: 20px;
+	font-size: 80px;
+	color: var(--font-color);
+}
+
+.error-under-text {
+	margin-bottom: 40px;
+	font-size: 30px;
+	color: var(--second-color);
+}
+
+//МЕДИЯ ЗАПРОСЫ ДЛЯ СТРАНИЦЫ ОШИБКИ
+
+@media (max-width: 1400px) {
+	.error-main-text {
+		font-size: 60px;
+	}
+
+	.error-under-text {
+		font-size: 24px;
+	}
+
+	.error-img {
+		width: 500px;
+		height: 324px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.error-main-text {
+		font-size: 50px;
+	}
+
+	.error-under-text {
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.error-img {
+		width: 400px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 800px) {
+	.error-main-text {
+		font-size: 40px;
+	}
+
+	.error-under-text {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.error-img {
+		width: 350px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 600px) {
+	.error-main-text {
+		font-size: 26px;
+	}
+
+	.error-under-text {
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.error-img {
+		width: 250px;
+		height: 150px;
+	}
+}

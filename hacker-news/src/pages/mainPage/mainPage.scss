@@ -1,0 +1,110 @@
+.main-page {
+	height: 100%;
+	width: 100%;
+	margin-top: 120px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.error-fetch {
+	color: var(--error-color);
+}
+
+.observer {
+	height: 100px;
+	visibility: hidden;
+}
+
+.pag {
+	top: -50px;
+	position: relative;
+
+}
+
+// МЕДИЯ ЗАПРОСЫ ДЛЯ СТРАНИЦЫ НОВОСТЕЙ
+@media (min-width: 2800px) {
+	.main-page {
+		margin-top: 170px;
+	}
+
+	.news {
+		&__title {
+			font-size: 34px;
+		}
+
+		&__name {
+			font-size: 28px;
+		}
+
+		&__by {
+			font-size: 28px;
+		}
+
+		&__data {
+			font-size: 26px;
+		}
+
+		&__score {
+			font-size: 26px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.news {
+		&__title {
+			font-size: 22px;
+		}
+
+		&__name {
+			font-size: 18px;
+		}
+
+		&__by {
+			font-size: 18px;
+		}
+
+		&__data {
+			font-size: 16px;
+		}
+
+		&__score {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.main-page {
+		margin-top: 90px;
+	}
+
+	.news {
+		padding: 10px;
+
+		&__title {
+			font-size: 18px;
+		}
+
+		&__name {
+			font-size: 14px;
+		}
+
+		&__by {
+			font-size: 14px;
+		}
+
+		&__data {
+			font-size: 12px;
+		}
+
+		&__score {
+			font-size: 12px;
+		}
+	}
+
+	.after-name {
+		margin-top: auto;
+	}
+}

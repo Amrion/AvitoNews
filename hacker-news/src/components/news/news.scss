@@ -1,0 +1,54 @@
+.news {
+	cursor: pointer;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	height: 190px;
+	border: 2px solid var(--mix-color);
+	border-radius: 20px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	color: var(--font-color);
+	transition: transform .2s linear;
+
+	&__title {
+		font-weight: 500;
+		font-size: 27px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	&__name {
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+
+	&__by {
+		font-weight: bold;
+		font-size: 22px;
+	}
+
+	&__data{
+		font-size: 20px;
+	}
+
+	&__score {
+		font-size: 20px;
+	}
+}
+
+@mixin transform($scale) {
+	-webkit-transform: $scale;
+	transform: $scale;
+}
+
+.news:hover {
+	@include transform(scale(1.03));
+}
+
+.after-name {
+	justify-content: space-between;
+	display: flex;
+
+}
